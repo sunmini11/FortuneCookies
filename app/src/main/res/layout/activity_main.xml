@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.egco428.a13285.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fortune Cookies Results"
+        android:textSize="18dp"
+        android:textColor="#4c8ecd"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/border" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:id="@+id/listView" />
+</LinearLayout>
